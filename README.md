@@ -13,6 +13,7 @@ The data for each day comprises a time-sequence of stationDataSnaps
 
 Routines assume that raw station data, in the form of .csv files, are held in a directory such as 
 "..\\..\\Data\\Station Data\\Station Status 2014 15 mins Cleansed\\"
+Routines put processed data in "..\\..\\Data\\Station Data\\"
 
 
 ####Scripts   
