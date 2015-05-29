@@ -1,6 +1,6 @@
 # StationDataLoader
 For people wishing to make use of London Cycle Hire station data, this repository holds routines
-for accessing the data.
+for accessing the data.  
 
 ###Purpose: 
 Gather station data into a form that can be used in other analyses  
@@ -8,8 +8,12 @@ Provide sequential access to station data via an iterator
 
 #### Concepts:  
 A stationDataSnap is a set of measurements of the state of all of the reporting stations at a point in time.  
-StationData, such as SD14.Rdata, is composed of a sequence of days on which station data has been gathered.    
+StationData is composed of a sequence of days on which station data has been gathered.    
 The data for each day comprises a time-sequence of stationDataSnaps  
+
+Routines assume that raw station data, in the form of .csv files, are held in a directory such as 
+"..\\..\\Data\\Station Data\\Station Status 2014 15 mins Cleansed\\"
+
 
 ####Scripts   
 Normally these should be run in the order mentioned.  
